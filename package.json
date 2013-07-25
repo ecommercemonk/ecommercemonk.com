@@ -1,0 +1,21 @@
+{
+  "name": "ecommercemonk.com",
+  "version": "0.0.1-9",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "ejs": "*",
+    "nodemailer": "*"
+  },
+  "subdomain": "ecommercemonk",
+  "domains": [
+    "ecommercemonk.com",
+    "www.ecommercemonk.com"
+  ],
+  "engines": {
+    "node": "0.8.x"
+  }
+}
