@@ -8,6 +8,10 @@ $(document).ready(function(e) {
         e.preventDefault();
         $('html,body').animate({scrollTop: $(this.hash).offset().top - 53}, 300);                                                         
     });
+    $('#start').bind('click', function(e) {
+        e.preventDefault();
+        $('html,body').animate({scrollTop: $('#contact').offset().top - 53}, 300);                                                         
+    });
 
     $('#submit').bind('click', function(e){
     	$('#firstname, #email, #message').css('border', '1px solid #ffffff');
